@@ -172,7 +172,7 @@ section {
 .section__pic-container {
   display: flex;
   height: 400px;
-  width: auto;
+  width: 400px;
   margin: auto 0;
 }
 
@@ -284,26 +284,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 1rem;
-}
-
-#whatsapp-icon {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  border-radius: 50%;
-
-  text-align: center;
-  cursor: pointer;
-
-  z-index: 100;
-}
-
-#whatsapp-icon img {
-  width: 100%;
-  height: 100%;
+  border-radius: 2rem;
 }
 
 .arrow {
@@ -329,7 +310,7 @@ section {
 
 .section__pic-container {
   height: 400px;
-  width: auto;
+  width: 400px;
   margin: auto 0;
 }
 
@@ -385,8 +366,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: auto;
-  height: 80%;
+  width: 90%;
+  height: 90%;
 }
 
 .project-title {
@@ -448,4 +429,23 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+#whatsapp-icon {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50%;
+
+  text-align: center;
+  cursor: pointer;
+
+  z-index: 100;
+}
+
+#whatsapp-icon img {
+  width: 100%;
+  height: 100%;
 }
